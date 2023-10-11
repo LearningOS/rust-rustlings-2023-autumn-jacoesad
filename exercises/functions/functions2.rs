@@ -3,14 +3,14 @@
 // Execute `rustlings hint functions2` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+
 
 fn main() {
     call_me(3);
 }
 
-fn call_me(num:) {
-    for i in 0..num {
+fn call_me(num: usize) {
+    for i in 0..num as usize {
         println!("Ring! Call number {}", i + 1);
     }
 }
